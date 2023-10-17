@@ -70,6 +70,7 @@ html[data-theme="dark"] {
   text-decoration: underline;
 }
 .mt-body {
+  padding: unset!important;
   /* padding: 1rem clamp(0.25rem, 4vw, 1.5rem); */
   white-space: pre-wrap;
   word-wrap: break-word;
