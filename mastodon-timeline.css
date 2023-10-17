@@ -33,7 +33,7 @@ html[data-theme="dark"] {
   height: 100%;
   overflow-y: auto;
   position: relative;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   scrollbar-color: var(--line-gray-color) var(--bg-color);
   scrollbar-width: thin;
 }
@@ -42,23 +42,23 @@ html[data-theme="dark"] {
   height: 0.25rem;
 }
 .mt-container::-webkit-scrollbar-thumb {
-  background-color: var(--line-gray-color);
+  /* background-color: var(--line-gray-color); */
   border: none;
   border-radius: 3rem;
 }
 .mt-container::-webkit-scrollbar-thumb:hover,
 .mt-container::-webkit-scrollbar-thumb:active {
-  background-color: var(--line-gray-color);
+  /* background-color: var(--line-gray-color); */
 }
 .mt-container::-webkit-scrollbar-track {
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   border: none;
   border-radius: 0;
 }
 .mt-container::-webkit-scrollbar-track:hover,
 .mt-container::-webkit-scrollbar-track:active,
 .mt-container::-webkit-scrollbar-corner {
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
 }
 .mt-container a:link,
 .mt-container a:active,
